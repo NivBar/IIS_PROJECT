@@ -3,10 +3,10 @@
 AutoMD is a web application to diagnose a car problem according to given car sympyoms.
 The user can insert the car symptoms in a free text or pick them from cascading dropdowns.
 
-# Diagnosing the car problem according to free text:
+### Diagnosing the car problem according to free text:
 ![image](https://user-images.githubusercontent.com/99175298/214261401-54df7e4c-0b29-4a15-a8ca-8d907d1c3e2b.png)
 
-# Diagnosing the car problem according to cascading dropdowns:
+### Diagnosing the car problem according to cascading dropdowns:
 ![image](https://user-images.githubusercontent.com/99175298/214261511-884c3542-7f10-4054-9266-f7e404988a16.png)
 
 # prerequisite 
