@@ -29,27 +29,27 @@ you will need to open a terminal in the application root and install the react p
 **npm install**
 
 ## Activate the flask server and install the requirments 
-you will activate the Flask server by opening a terminal in the flask_server folder and creating python virtual environment by running: <br/>
+Activate the Flask server by opening a terminal in the flask_server folder and creating python virtual environment by running: <br/>
 **python -m venv venv**  <br/>
  <br/>
 This will create a venv folder under the flask_server. you can activate this venv by running:  <br/>
 **flask_server/venv/Scripts/activate**  <br/>
  <br/>
-This will open the venv and then we can run any python and pip installation command (see the (venv) header in the terminal screenshot bellow): <br/>
+This will open the venv and then we can run any python and pip installation commands (see the (venv) header in the terminal screenshot bellow): <br/>
 ![image](https://user-images.githubusercontent.com/99175298/214264559-28b9697a-ae11-4387-8ad3-d3884f84aa69.png)
  <br/>
-In the same terminal (the venv terminal) install all the python packages needed:  <br/>
+In the same terminal (the venv terminal) install all the python packages needed (all the packages needed are under **requirements.txt**):  <br/>
 **pip install -r requirements.txt**  <br/> (you might need to give the full path to the requirements file: flask_server\requirement.txt)
 
-# running the app
-make sure that the .env file under the flask_server root includes the following: <br/>
+# Running the app
+Make sure that the .env file under the flask_server root includes the following: <br/>
 **set FLASK_APP= --app app.py** <br/>
 **set FLASK_ENV=development** <br/>
 (You might need to add this to your system variables) <br/>
 
-also make sure that you have the **package.json and package-lock.json** in the src folder (the react/client folder)
+Also make sure that you have the **package.json and package-lock.json** in the src folder (the react/client folder)
 
-lastly, you can open a terminal in the application root and run: 
+Lastly, you can open a terminal in the application root and run: 
 **npm run dev**
-this will run the flask server and the react one and then opens a web browser with the application 
+This will run the flask server and the react one and then opens a web browser with the application 
 
