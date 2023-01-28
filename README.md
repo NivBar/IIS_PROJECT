@@ -25,7 +25,7 @@ In order to run the application you need to install:
 you will also need to install the npm packages and to activate the flask server (see bellow) 
 
 ### install npm packages 
-you will need to open a terminal in the application root and install the react packages by simply running:
+you will need to open a terminal in the application root and install the react packages by simply running: <br/>
 **npm install**
 
 ### activate the flask server and install the requirments 
@@ -39,12 +39,12 @@ This will open the venv and then we can run any python and pip installation comm
 ![image](https://user-images.githubusercontent.com/99175298/214264559-28b9697a-ae11-4387-8ad3-d3884f84aa69.png)
  <br/>
 In the same terminal (the venv terminal) install all the python packages needed:  <br/>
-**pip install -r requirements.txt**  <br/>(you might need to give the full path to the requirements file: flask_server\requirement.txt)
+**pip install -r requirements.txt**  <br/> (you might need to give the full path to the requirements file: flask_server\requirement.txt)
 
 # running the app
-make sure that the .env file under the flask_server root includes the following:
-**set FLASK_APP= --app app.py 
-set FLASK_ENV=development**
+make sure that the .env file under the flask_server root includes the following: <br/>
+**set FLASK_APP= --app app.py** <br/>
+**set FLASK_ENV=development** <br/>
 
 also make sure that you have the **package.json and package-lock.json** in the src folder (the react/client folder)
 
