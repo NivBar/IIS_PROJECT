@@ -17,7 +17,7 @@ In order to run the application you need to install:
 
 also,
 you will need to open a terminal in the application root and install the react packages by simply running:
-npm install
+**npm install**
 
 also, 
 you will activate the Flask server by opening a terminal in the flask_server folder and create python virtual environment by simply running:
