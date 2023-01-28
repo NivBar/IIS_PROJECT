@@ -20,7 +20,8 @@ When running the code the React (nodejs) server runs on port 3000 and the flask 
 In order to run the application you need to install:
 1. Node.js
 2. NPM
-3. Python38 &nbsp
+3. Python38
+<br/>
 you will also need to install the npm packages and to activate the flask server (see bellow) 
 
 ### install npm packages 
@@ -28,14 +29,17 @@ you will need to open a terminal in the application root and install the react p
 **npm install**
 
 ### activate the flask server and install the requirments 
-you will activate the Flask server by opening a terminal in the flask_server folder and creating python virtual environment by running:
-**python -m venv venv**
-This will create a venv folder under the flask_server. you can activate this venv by running:
-**flask_server/venv/Scripts/activate**
+you will activate the Flask server by opening a terminal in the flask_server folder and creating python virtual environment by running: <br/>
+**python -m venv venv**  <br/>
+ <br/>
+This will create a venv folder under the flask_server. you can activate this venv by running:  <br/>
+**flask_server/venv/Scripts/activate**  <br/>
+ <br/>
 This will open the venv and then we can run any python and pip installation command (see the (venv) header in the terminal screenshot bellow):
 ![image](https://user-images.githubusercontent.com/99175298/214264559-28b9697a-ae11-4387-8ad3-d3884f84aa69.png)
-In the same terminal (the venv terminal) install all the python packages needed:
-**pip install -r requirements.txt** (you might need to give the full path to the requirements file: flask_server\requirement.txt)
+ <br/>
+In the same terminal (the venv terminal) install all the python packages needed:  <br/>
+**pip install -r requirements.txt**  <br/>(you might need to give the full path to the requirements file: flask_server\requirement.txt)
 
 # running the app
 make sure that the .env file under the flask_server root includes the following:
