@@ -10,7 +10,7 @@ The user can insert the car symptoms in a free text or pick them from cascading 
 ![image](https://user-images.githubusercontent.com/99175298/214261511-884c3542-7f10-4054-9266-f7e404988a16.png)
 
 # The code structure
-The code is devided into two main parts: the **client** part (React) and the **server** part (Flask). The React code is under the **src folder** and the Flask code is under the **flask_server** folder. When cloning and running the code the React will run on port 3000 and the flask on port 5000. 
+The code is devided into two main parts: the **client/React** part (under the src folder) and the **server/Flask** part (under the flask_server folder). When running the code the React (nodejs) server runs on port 3000 and the flask server runs on port 5000.
 
 # prerequisite 
 In order to run the application you need to install:
