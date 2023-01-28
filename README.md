@@ -45,6 +45,7 @@ In the same terminal (the venv terminal) install all the python packages needed:
 make sure that the .env file under the flask_server root includes the following: <br/>
 **set FLASK_APP= --app app.py** <br/>
 **set FLASK_ENV=development** <br/>
+(You might need to add this to your system variables) <br/>
 
 also make sure that you have the **package.json and package-lock.json** in the src folder (the react/client folder)
 
