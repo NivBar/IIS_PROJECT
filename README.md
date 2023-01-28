@@ -13,8 +13,8 @@ The user can insert the car symptoms in a free text or pick them from cascading 
 In order to run the application you need to install:
 1. Node.js
 2. NPM
-3. Python38
-<br/>you will also need to install the npm packages and to activate the flask server (see bellow) 
+3. Python38 <br/>
+you will also need to install the npm packages and to activate the flask server (see bellow) 
 
 ### install npm packages 
 you will need to open a terminal in the application root and install the react packages by simply running:
