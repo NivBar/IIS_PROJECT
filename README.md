@@ -20,16 +20,15 @@ you will also need to install the npm packages and to activate the flask server 
 you will need to open a terminal in the application root and install the react packages by simply running:
 **npm install**
 
-### activate the flask server
-you will activate the Flask server by opening a terminal in the flask_server folder and create python virtual environment by running:
+### activate the flask server and install the requirments 
+you will activate the Flask server by opening a terminal in the flask_server folder and creating python virtual environment by running:
 **python -m venv venv**
 This will create a venv folder under the flask_server. you can activate this venv by running:
 **flask_server/venv/Scripts/activate**
-This will open the venv and then we can run any python and pip installation command:
+This will open the venv and then we can run any python and pip installation command (see the (venv) header in the terminal screenshot bellow):
 ![image](https://user-images.githubusercontent.com/99175298/214264559-28b9697a-ae11-4387-8ad3-d3884f84aa69.png)
-
-### using the venv directory activated above 
-Install all the python packages needed using pip install in the activated venv above 
+In the same terminal (the venv terminal) install all the python packages needed:
+**pip install -r requirements.txt** (you might need to give the full path to the requirements file: flask_server\requirement.txt)
 
 # running the app
 make sure that the .env file under the flask_server root includes the following:
